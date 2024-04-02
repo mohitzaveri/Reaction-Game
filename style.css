@@ -17,6 +17,19 @@
     font-family: "Roboto", sans-serif;
     color: #fff;
   }
+
+ .tooSoon {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: Khaki;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
   
   .end-screen,
   .main-menu {
@@ -33,7 +46,8 @@
   }
   
   .main-menu.active,
-  .end-screen.active {
+  .end-screen.active,
+  .tooSoon.active {
     display: grid;
     place-items: center;
   }
